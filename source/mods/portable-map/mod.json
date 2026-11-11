@@ -1,0 +1,34 @@
+{
+  "id": "portable-map",
+  "kind": "native",
+  "version": "0.2.0",
+  "backlog": "M15",
+  "feature_dependencies": [
+    "shop-framework",
+    "equipment-framework",
+    "hints-framework"
+  ],
+  "gameplay": true,
+  "play_help": [
+    "Buy the $200 Portable Map in Modded Shop (Ctrl+Shift+F2); assign it in Inventory and select its hotbar slot.",
+    "F12 opens/closes the vanilla map while the map device is selected.",
+    "Native purchase/equipment/hints integration implemented; gameplay checks deferred."
+  ],
+  "requires_apis": [
+    {
+      "api": "shop-framework.shop",
+      "abi": 1,
+      "min_size": 56
+    },
+    {
+      "api": "equipment-framework.equipment",
+      "abi": 1,
+      "min_size": 32
+    },
+    {
+      "api": "hints-framework.hints",
+      "abi": 1,
+      "min_size": 24
+    }
+  ]
+}
