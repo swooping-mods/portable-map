@@ -1,5 +1,7 @@
 # Portable Map
 
+<img src="media/icon.png" alt="Portable Map icon" width="128" height="128">
+
 Buy the $200 map in Modded Shop; equip it in the native hotbar.
 
 ## Install
